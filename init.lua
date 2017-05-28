@@ -2,7 +2,7 @@ random_spawn = {}
 
 function random_spawn(player)
    local elevation = 15
-   local radius = 1000
+   local radius = 10000
    local posx = math.random(-radius, radius)
    local posz = math.random(-radius, radius)
    local new_spawn = {x = -174 + posx, y = elevation, z = 178 + posz}
